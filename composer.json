@@ -1,0 +1,21 @@
+{
+    "name": "your-company/docx-to-post-pro",
+    "description": "WordPress plugin for importing DOCX, PDF, and Google Drive documents with AI-powered SEO",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "smalot/pdfparser": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DTP\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your-email@example.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
